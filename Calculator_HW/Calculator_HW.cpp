@@ -2,10 +2,35 @@
 //
 
 #include <iostream>
+#include "addition.cpp"
+#include "subtraction.cpp"
+#include "multiplication.cpp"
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	int choice;
+	int a;
+	int b;
+	cout << "pls enter what do you want to do:\n1.addition \n2.subtraction \n3.multiplication\n ";
+	cin >> choice;
+	cout << "Enter 1 number pleese: ";
+	cin >> a;
+	cout << "Enter 2 number pleese: ";
+	cin >> b;
+	if (choice == 1)
+	{
+		cout << add(a, b);
+	}
+	if else (choice == 2)
+	{
+		cout << subtract(a, b);
+	}
+	if else (choice == 3)
+	{
+		cout << multiply(a, b);
+	}
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
