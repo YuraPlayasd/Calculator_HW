@@ -18,5 +18,8 @@
     <ClCompile Include="Calculator_HW.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="multiplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
